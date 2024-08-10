@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding-right: 13px;
+    padding-top: 75px;
+    overflow: hidden;
+}
+
+.killContainer {
+    height: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+
+    background: rgb(0,0,0);
+    text-shadow: 0px 0px 10px #000000;
+    background: -moz-linear-gradient(270deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.6) 50%, rgba(0,255,78,0) 100%);
+    background: -webkit-linear-gradient(270deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.6) 50%, rgba(0,255,78,0) 100%);
+    background: linear-gradient(270deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.6) 50%, rgba(0,255,78,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#FE9900",GradientType=1);
+
+    border-radius: 4px;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 34px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 8px;
+    border-right: solid 7px rgb(0, 4, 255)
+}
+
+.weapon {
+    height: 20px;
+    padding-top: 6px;
+    display: inline;
+    vertical-align: top;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.killer {
+    color: rgb(172, 123, 18);
+}
+
+.killed {
+    color: rgb(255, 35, 35);
+}
+
+.clear {
+    clear:both
+}
